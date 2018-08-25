@@ -11,6 +11,11 @@ For example:
   inputType: "singleInput",
   placeholder: "Receiving Party"
 },
+{
+  attributeName: "mutual",
+  fullName: "Mutual or one-sided",
+  inputType: "toggle"
+},
  {
   attributeName: "jurisdiction",
   fullAttributeName: "Jurisdiction",
