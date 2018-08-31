@@ -1,0 +1,32 @@
+{
+  "formName": "Non disclosure agreement",
+  "formSteps": [
+    {
+      "name": "receivingParty",
+      "label": "Recipient",
+      "inputType": "textInput",
+      "error": "Please provide a value",
+      "required": true,
+      "formStep": 0
+    },
+    {
+      "name": "mutual",
+      "label": "Mutual NDA",
+      "inputType": "checkbox",
+      "initialValue": false,
+      "formStep": 1
+    },
+    {
+      "name": "jurisdiction",
+      "label": "Jurisdiction",
+      "inputType": "select",
+      "placeholder": "Jurisdiction",
+      "options": [
+        "New York",
+        "England & Wales",
+        "California"
+      ],
+      "formStep": 2
+    }
+  ]
+}

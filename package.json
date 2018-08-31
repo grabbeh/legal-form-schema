@@ -1,0 +1,37 @@
+{
+  "name": "legal-form-schema",
+  "version": "1.0.0",
+  "description": "This repository is intended to create a form of schema that can be read into a website to create a step-by-step form to create a data structure that can be injected into a legal form to enable completion of the form. Separating out data from boilerplate will make it easier for non-legal personnel to create agreements, for example NDAs, without involving legal.",
+  "main": "index.js",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "classnames": "^2.2.6",
+    "formik": "^1.1.1",
+    "grid-styled": "^5.0.2",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.4.2",
+    "react-icons": "^3.0.5",
+    "styled-components": "^3.4.5",
+    "styled-system": "^3.0.2",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grabbeh/legal-form-schema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grabbeh/legal-form-schema/issues"
+  },
+  "homepage": "https://github.com/grabbeh/legal-form-schema#readme"
+}
