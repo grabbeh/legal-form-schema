@@ -14,7 +14,7 @@ const Select = ({
         </label>
       </div>
       <select
-        className='pa1 w-50 mt2 f4 font ba bw1 b--black-20'
+        className='pa1 w-50 mt2 f4 font bb bw1 b--black-20'
         value={values[name]}
         name={name}
         key={values[name]}
